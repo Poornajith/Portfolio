@@ -29,22 +29,34 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="link-icon-bar d-flex flex-row mt-5">
-                                <div className="link-ico in me-4">
-                                    <img src={Ico_linkedIn} alt="linkedIn"/>
-                                </div>
-                                <div className="link-ico fb me-4">
-                                    <img src={Ico_Facebook} alt="Facebook"/>
-                                </div>
-                                <div className="link-ico tik-tok me-4">
-                                    <img src={Ico_TikTok} alt="Tiktok"/>
-                                </div>
-                                <div className="link-ico youtube me-4">
-                                    <img src={Ico_youtube} alt="Youtube"/>
-                                </div>
+                                <a href="https://www.linkedin.com/in/chirantha-poornajith-947a671a4">
+                                    <div className="link-ico in me-4">
+                                        <img src={Ico_linkedIn} alt="linkedIn"/>
+                                    </div>
+                                </a>
+
+                                <a href="https://web.facebook.com/Poooooori">
+                                    <div className="link-ico fb me-4">
+                                        <img src={Ico_Facebook} alt="Facebook"/>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.tiktok.com/@poornajith_3d?_t=8oQN30MRBwI&_r=1">
+                                    <div className="link-ico tik-tok me-4">
+                                        <img src={Ico_TikTok} alt="Tiktok"/>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.youtube.com/channel/UCueEM7Q5zddY8n4R4WDC9LA">
+                                    <div className="link-ico youtube me-4">
+                                        <img src={Ico_youtube} alt="Youtube"/>
+                                    </div>
+                                </a>
+
                             </div>
                         </div>
                         <div className="">
-                            <img src={photo} alt="blue shape" className={'photo'}/>
+                        <img src={photo} alt="blue shape" className={'photo'}/>
                         </div>
                     </div>
                 </div>
