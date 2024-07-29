@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.blue-shape {
+    float: right;
+    height: 100vh;
+    z-index: -1;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.photo{
+    height: 70vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blue{
+    color: #00ADFF;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home-bg{
+    background-image: url("./Images/blueShape.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
+.glass{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-main{
+    border: 1px solid rgba(0, 173, 255, 0.57);
+    padding : 10px;
+}
+.btn-main:hover{
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.29);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+}
+.link-ico{
+    width: 30px;
+    height: 30px;
+    border-radius: 16px;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+}
+.link-ico:hover{
+    -webkit-box-shadow:0px 0px 105px 45px rgb(22, 197, 227);
+    -moz-box-shadow: 0px 0px 105px 45px rgb(22, 197, 227);
+    box-shadow: 0px 0px 105px 45px rgb(22, 197, 227);
 }
