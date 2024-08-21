@@ -6,7 +6,7 @@ export default function NavBar() {
     const navigate = useNavigate()
     return(
         <div>
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className="bg-body-tertiary nav-bar">
                 <Container>
                     <Navbar.Brand onClick={() => navigate(`/`)}>
                         <img src={logo} alt="logo" className={'w-20'}/>
