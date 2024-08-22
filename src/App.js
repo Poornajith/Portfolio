@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Home from "./Components/Home";
+import Home from "./Components/Home/Home";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import WebDevHome from "./Components/WebDev/WebDevHome";
 import GameDevHome from "./Components/GameDev/GameDevHome";
