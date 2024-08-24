@@ -5,6 +5,7 @@ import MetrixRain from "./MetrixRain";
 import MainTextArea from "./MainTextArea";
 import HeroSection from "./HeroSection";
 import './home.css'
+import SocialMedia from "./SocialMedia";
 
 export default function Home() {
     return (
@@ -29,6 +30,11 @@ export default function Home() {
                 <ParallaxLayer offset={0} speed={1.6}>
                     <div className="parallax-img parallax-layer-0 align-content-center m-1">
                         <HeroSection></HeroSection>
+                    </div>
+                </ParallaxLayer>
+                <ParallaxLayer offset={0.4} speed={1.7}>
+                    <div className="">
+                        <SocialMedia></SocialMedia>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer offset={0.9} speed={1.8}>
