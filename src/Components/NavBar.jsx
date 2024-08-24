@@ -1,6 +1,6 @@
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
-import logo from '../Images/icons/Home.png'
+import logo from '../Images/SocialIcons/Home.png'
 
 export default function NavBar() {
     const navigate = useNavigate()
