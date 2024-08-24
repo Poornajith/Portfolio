@@ -1,8 +1,9 @@
-import {Container} from "react-bootstrap";
 import '../../App.css';
 import NavBar from "../NavBar";
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import MetrixRain from "./MetrixRain";
+import MainTextArea from "./MainTextArea";
+import HeroSection from "./HeroSection";
 
 export default function Home() {
     return (
@@ -25,14 +26,13 @@ export default function Home() {
                     <div className="parallax-img parallax-layer-1"></div>
                 </ParallaxLayer>
                 <ParallaxLayer offset={0} speed={1.9}>
-                    <div className="parallax-img parallax-layer-0"></div>
+                    <div className="parallax-img parallax-layer-0 align-content-center">
+                        <HeroSection></HeroSection>
+                    </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={0.9} speed={2}>
+                <ParallaxLayer offset={0.9} speed={2.3}>
                     <div className="parallax-text py-5">
-                        <Container className={''}>
-                            <h1 className={'pt-5'}>Home</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </Container>
+                        <MainTextArea></MainTextArea>
                     </div>
                 </ParallaxLayer>
             </Parallax>

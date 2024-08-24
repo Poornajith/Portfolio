@@ -4,7 +4,9 @@
     z-index: -1;
 }
 .photo{
-    height: 70vh;
+    height: 50vh;
+    /*background-image: url("Images/photoFrame.svg");*/
+    /*background-size: cover;*/
 }
 .blue{
     color: #00ADFF;
@@ -79,4 +81,28 @@
 .parallax-text{
     background-image: url("./Images/Wallpaper/tree-tile.png");
     background-repeat: repeat-x;
+}
+.text-matrix{
+    background: #09c6e7;
+    background: linear-gradient(to right, #09c6e7 0%, #24eabc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 10px;
+    font-weight: bolder;
+}
+.text-skill{
+    background: #1DEE2D;
+    background: linear-gradient(to right, #1DEE2D 0%, #09C6E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 10px;
+    font-weight: bolder;
+}
+.hero-glass{
+    /* From https://css.glass */
+    background: rgba(1, 23, 6, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(7, 253, 167, 0.3);
 }
