@@ -10,6 +10,12 @@ import ico_figma from '../../Images/TechIcons/Figma Logo.svg'
 
 export default function MainTextArea() {
     const navigate = useNavigate()
+    function OpenGameDev() {
+        navigate('/game')
+    }
+    function OpenWebDev() {
+        navigate('/web')
+    }
     return(
         <>
             <Container className={'pt-5'}>
@@ -17,7 +23,8 @@ export default function MainTextArea() {
                 <div className="mb-3">
                     <Row>
                         <Col className={''}>
-                            <div className="p-5 web-dev rounded m-3 mt-1 text-center align-content-center">
+                            <div className="p-5 web-dev rounded m-3 mt-1 text-center align-content-center"
+                            onClick={OpenWebDev}>
                                 <div className="text-glass rounded-2">
                                     <h1 className={'text-skill'}>Web Developer / Designer</h1>
                                 </div>
@@ -41,7 +48,8 @@ export default function MainTextArea() {
                             </div>
                         </Col>
                         <Col className={''}>
-                            <div className="p-5 game-dev rounded m-3 mt-1 text-center align-content-center">
+                            <div className="p-5 game-dev rounded m-3 mt-1 text-center align-content-center"
+                            onClick={OpenGameDev}>
                                 <div className="text-glass rounded-2">
                                     <h1 className={'text-skill'}>Game Developer</h1>
                                 </div>

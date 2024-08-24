@@ -4,6 +4,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import MetrixRain from "./MetrixRain";
 import MainTextArea from "./MainTextArea";
 import HeroSection from "./HeroSection";
+import './home.css'
 
 export default function Home() {
     return (
