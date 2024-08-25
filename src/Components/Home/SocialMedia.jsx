@@ -28,7 +28,6 @@ export default function SocialMedia() {
                             <img src={Ico_youtube} alt="Youtube"/>
                         </div>
                     </a>
-
                 </div>
             </div>
         </>

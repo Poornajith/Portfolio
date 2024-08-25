@@ -6,6 +6,7 @@ import MainTextArea from "./MainTextArea";
 import HeroSection from "./HeroSection";
 import './home.css'
 import SocialMedia from "./SocialMedia";
+import ExtraTools from "./ExtraTools";
 
 export default function Home() {
     return (
@@ -40,6 +41,7 @@ export default function Home() {
                 <ParallaxLayer offset={0.9} speed={1.8}>
                     <div className="parallax-text py-5">
                         <MainTextArea></MainTextArea>
+                        <ExtraTools></ExtraTools>
                     </div>
                 </ParallaxLayer>
             </Parallax>

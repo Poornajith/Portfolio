@@ -4,7 +4,7 @@
 .game-dev{
     background-image: url("../../Images/gamedev.jpg");
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
     transition: background-size 2s ease-in;
 }
 .web-dev{
@@ -29,6 +29,7 @@
 .tech-icon{
     width: 50px;
     transition: transform 0.2s ease-in-out;
+    cursor: pointer;
 }
 .tech-icon:hover{
     transform: scale(1.3);
@@ -40,4 +41,34 @@
 }
 .link-ico:hover{
     transform: scale(1.4);
+}
+.graphic-design{
+    background-image: url("../../Images/graphic design.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: background-size 2s ease-in;
+}
+.graphic-design:hover {
+    background-size: 105%;
+}
+.modeling{
+    background-image: url("../../Images/3d modeling.jpg");
+    background-size: cover;
+    background-position-x: center;
+    transition: background-size 2s ease-in;
+}
+.modeling:hover {
+    background-size: 105%;
+}
+.vid-edit{
+    background-image: url("../../Images/video editing.jpg");
+    background-size: cover;
+    background-position-x: center;
+    transition: background-size 2s ease-in;
+}
+.vid-edit:hover {
+    background-size: 105%;
+}
+.hover-hand {
+    cursor: pointer;
 }

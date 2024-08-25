@@ -46,6 +46,7 @@ export default function HeroSection() {
                             <h1>I'm <span className={'name text-matrix'}>アァカサタナハマヤ ガザダバパイィキシチ</span>
                             </h1>
                             <h1 className={'skill text-skill'}>カサタナハマヤ ガザダバ</h1>
+                            <h6>BSc (Hons) Software Engineering</h6>
                         </div>
                     </div>
                 </div>

@@ -25,7 +25,7 @@ export default function MainTextArea() {
                         <Col className={''}>
                             <div className="p-5 web-dev rounded m-3 mt-1 text-center align-content-center"
                             onClick={OpenWebDev}>
-                                <div className="text-glass rounded-2">
+                                <div className="text-glass rounded-2 hover-hand">
                                     <h1 className={'text-skill'}>Web Developer / Designer</h1>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ export default function MainTextArea() {
                         <Col className={''}>
                             <div className="p-5 game-dev rounded m-3 mt-1 text-center align-content-center"
                             onClick={OpenGameDev}>
-                                <div className="text-glass rounded-2">
+                                <div className="text-glass rounded-2 hover-hand">
                                     <h1 className={'text-skill'}>Game Developer</h1>
                                 </div>
                             </div>
