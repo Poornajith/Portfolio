@@ -1,0 +1,8 @@
+.web-dev-slider-bg{
+    background-image: url("../../Images/Web/Dev/develop.jpg");
+    height: 50vh;
+    width: 100vw;
+}
+.web-design-slider-bg{
+    background-image: url("../../Images/Web/Design/design.jpg");
+}

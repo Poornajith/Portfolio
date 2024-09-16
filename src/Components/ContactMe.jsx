@@ -1,12 +1,13 @@
 import NavBar from "./NavBar";
 import {Container} from "react-bootstrap";
+import MaintenanceScreen from "./MaintenanceScreen";
 
 export default function ContactMe(){
     return(
         <div>
             <NavBar></NavBar>
             <Container>
-                <h1>Contact Me</h1>
+                <MaintenanceScreen></MaintenanceScreen>
             </Container>
         </div>
     )
