@@ -1,8 +1,22 @@
 .web-dev-slider-bg{
     background-image: url("../../Images/Web/Dev/develop.jpg");
-    height: 50vh;
-    width: 100vw;
 }
 .web-design-slider-bg{
     background-image: url("../../Images/Web/Design/design.jpg");
+}
+.slider-content{
+    height: 60vh;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    background-position: center;
+}
+.slider-title{
+    font-size: 10vw;
+    font-family: 'Open Sans ExtraBold', cursive;
+    background-image: url("../../Images/Web/pattern3.jpg");
+    background-size: 30%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
