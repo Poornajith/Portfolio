@@ -20,7 +20,7 @@ export default function Section({image, text}) {
 
     return (
         <div>
-            <Row>
+            <Row className={'mb-5'}>
                 <Col sm={12} md={6}>
                     <div className="position-relative">
                         <div className="position-absolute">
@@ -34,6 +34,7 @@ export default function Section({image, text}) {
                 <Col sm={12} md={6} className={'align-content-center'}>
                     <div className="text ms-2 mt-2">
                         <h1 className="title">{text.title}</h1>
+                        <h4>{text.tech}</h4>
                         <p>{text.description}</p>
                     </div>
                 </Col>
