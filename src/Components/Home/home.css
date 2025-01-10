@@ -1,3 +1,42 @@
+.parallax-text{
+    background-image: url("../../Images/Wallpaper/tree-tile.png");
+    background-repeat: repeat-x;
+}
+.text-matrix{
+    background: #09c6e7;
+    background: linear-gradient(to right, #09c6e7 0%, #24eabc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 10px;
+    font-weight: bolder;
+}
+
+.parallax-img{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.parallax-layer-bg{
+    background: radial-gradient(circle, rgba(63,136,196,1) 0%, rgba(48,119,177,1) 35%, rgba(4,48,57,1) 100%);
+}
+.parallax-layer-0{
+    background-image: url("../../Images/Wallpaper/trees-b-2.png");
+}
+.parallax-layer-1{
+    background-image: url("../../Images/Wallpaper/trees-b-1.png");
+}
+.parallax-layer-2{
+    background-image: url("../../Images/Wallpaper/trees-b-0.png");
+}
+.parallax-layer-3{
+    background-image: url("../../Images/Wallpaper/mountain.png");
+}
+.parallax-layer-4{
+    background-image: url("../../Images/Wallpaper/mist.png");
+    opacity: 0.4;
+}
 .photo{
     height: 50vh;
 }
