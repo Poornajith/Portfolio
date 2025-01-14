@@ -13,7 +13,7 @@ const Filter = ({ onFilterChange }) => {
 
     return (
         <div>
-            <select value={selectedCategory} onChange={handleCategoryChange}>
+            <select className="form-select border-info-subtle" value={selectedCategory} onChange={handleCategoryChange}>
                 {categories.map((category) => (
                     <option key={category} value={category}>
                         {category}

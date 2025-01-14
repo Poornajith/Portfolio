@@ -8,6 +8,7 @@ export default function Gallery({image, text}) {
 
     return (
         <div>
+            <hr/>
             <h1>{text.title}</h1>
             <h3>{text.tech}</h3>
             <p>{text.description}</p>
@@ -23,7 +24,6 @@ export default function Gallery({image, text}) {
                     ))}
                 </div>
             </PhotoProvider>
-            <hr/>
         </div>
     )
 }

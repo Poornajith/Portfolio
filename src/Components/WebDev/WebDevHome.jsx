@@ -1,5 +1,5 @@
 import NavBar from "../NavBar";
-import {Container} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import Slider from "./Slider";
 import Gallery from "./Gallery";
 // import MaintenanceScreen from "../MaintenanceScreen";
@@ -20,7 +20,14 @@ export default function WebDevHome(){
             <Slider></Slider>
             <Container>
                 {/*<MaintenanceScreen></MaintenanceScreen>*/}
-                <Filter onFilterChange={handleFilterChange} />
+                <Row className={''}>
+                    <Col>
+                        <h4>Filter</h4>
+                    </Col>
+                    <Col>
+                        <Filter onFilterChange={handleFilterChange} />
+                    </Col>
+                </Row>
                 {filteredProjects.map((project) => (
                     <Gallery key={project.title} image={project.images} text={project} />
                 ))}

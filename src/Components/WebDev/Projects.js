@@ -32,7 +32,7 @@ export const projects = [
     {
         title: 'SkyNet',
         description : 'Trading simulator with three charts',
-        tech : 'React, Firebase Auth, Firebase Realtime Database, Firebase web hosting',
+        tech : 'React, Firebase Auth, Firebase Realtime Database, Firebase web hosting, Bootstrap 5',
         category: 'Design and Development',
         images: [
             require('../../Images/Web/Dev/SkyNet1.png'),
@@ -58,9 +58,29 @@ export const projects = [
         ]
     },
     {
+        title: 'Destinology',
+        description : 'Top traveling hotels website design for context held on freelancer.com',
+        tech : 'Figma',
+        category: 'Design',
+        images: [
+            require('../../Images/Web/Design/Destinology/Hotels.png'),
+            require('../../Images/Web/Design/Destinology/Home Page v3 -7.png'),
+            require('../../Images/Web/Design/Destinology/Destinations.png')
+        ]
+    },
+    {
+        title: 'African Cattle Farm',
+        description : 'Rustic Style Cattle farm website design for context held on freelancer.com',
+        tech : 'Figma',
+        category: 'Design',
+        images: [
+            require('../../Images/Web/Design/Cattle Farm Home Page initial version.jpg'),
+        ]
+    },
+    {
         title : 'Vogue Vibes',
         description: 'Beauty Saloon landing page template',
-        tech : 'React, Firebase web hosting',
+        tech : 'React, Firebase web hosting, Bootstrap 5',
         category: 'Design and Development',
         images: [
             require('../../Images/Web/Dev/vibes1.png'),
@@ -72,9 +92,25 @@ export const projects = [
         ]
     },
     {
+        title: 'Puzzle Game',
+        description : 'UI design created for Unity mobile puzzle game',
+        tech : 'Figma, Adobe Photoshop',
+        category: 'Mobile App Design',
+        images: [
+            require('../../Images/Web/Design/Puzzle game/Main Menu.jpg'),
+            require('../../Images/Web/Design/Puzzle game/Store.jpg'),
+            require('../../Images/Web/Design/Puzzle game/Pause.jpg'),
+            require('../../Images/Web/Design/Puzzle game/Lose.jpg'),
+            require('../../Images/Web/Design/Puzzle game/Level Menu.jpg'),
+            require('../../Images/Web/Design/Puzzle game/Win.jpg'),
+            require('../../Images/Web/Design/Puzzle game/Level Menu-1.jpg'),
+            require('../../Images/Web/Design/Puzzle game/Settings.jpg'),
+        ]
+    },
+    {
         title : 'Client Portal',
         description: 'Landing page template developed for a software company',
-        tech : 'React, Firebase web hosting',
+        tech : 'React, Firebase web hosting, Bootstrap 5',
         category: 'Design and Development',
         images: [
             require('../../Images/Web/Dev/client go 1.png'),
