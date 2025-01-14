@@ -7,19 +7,19 @@ export default function SocialMedia() {
     return(
         <>
             <div className={'link-icon-bar d-flex flex-wrap m-2'}>
-                <div className=" glass p-3 rounded">
+                <div className="glass p-3 rounded">
                     <a href="https://www.linkedin.com/in/chirantha-poornajith-947a671a4">
-                        <div className="link-ico in mb-2">
+                        <div className="link-ico in mb-3">
                             <img src={Ico_linkedIn} alt="linkedIn"/>
                         </div>
                     </a>
                     <a href="https://web.facebook.com/Poooooori">
-                        <div className="link-ico fb mb-2">
+                        <div className="link-ico fb mb-3">
                             <img src={Ico_Facebook} alt="Facebook"/>
                         </div>
                     </a>
                     <a href="https://www.tiktok.com/@poornajith_3d?_t=8oQN30MRBwI&_r=1">
-                        <div className="link-ico tik-tok mb-2">
+                        <div className="link-ico tik-tok mb-3">
                             <img src={Ico_TikTok} alt="Tiktok"/>
                         </div>
                     </a>
