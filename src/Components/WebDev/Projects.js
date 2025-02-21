@@ -14,6 +14,17 @@ export const projects = [
         ]
     },
     {
+        title: 'Nexus Desk Lamp',
+        description: 'Single Product Landing website design with Landing Page, detailed product page and checkout page',
+        tech: 'Figma',
+        category: 'Design',
+        images: [
+            require('../../Images/Web/Design/Nexus Lamp/Landing Page.jpg'),
+            require('../../Images/Web/Design/Nexus Lamp/Product Page.jpg'),
+            require('../../Images/Web/Design/Nexus Lamp/Checkout.jpg')
+        ]
+    },
+    {
         title: 'Safe Ride',
         description: 'School bus live tracking app',
         tech: 'Figma',
