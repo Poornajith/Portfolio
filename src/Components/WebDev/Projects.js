@@ -80,6 +80,17 @@ export const projects = [
         ]
     },
     {
+        title: 'Mobile Web UI/UX Enhance',
+        description : 'UI/UX enhancement for existing webapp mobile view',
+        tech : 'Figma',
+        category: 'Design',
+        images: [
+            require('../../Images/Web/Design/enomy/Product Page.jpg'),
+            require('../../Images/Web/Design/enomy/Product Page V2.jpg'),
+            require('../../Images/Web/Design/enomy/mockup.jpg')
+        ]
+    },
+    {
         title: 'African Cattle Farm',
         description : 'Rustic Style Cattle farm website design for context held on freelancer.com',
         tech : 'Figma',

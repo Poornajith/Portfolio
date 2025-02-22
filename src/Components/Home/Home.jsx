@@ -7,6 +7,7 @@ import HeroSection from "./HeroSection";
 import './home.css'
 import SocialMedia from "./SocialMedia";
 import ExtraTools from "./ExtraTools";
+import ContactCards from "../ContactCards";
 
 export default function Home() {
     return (
@@ -42,6 +43,7 @@ export default function Home() {
                     <div className="parallax-text py-5">
                         <MainTextArea></MainTextArea>
                         <ExtraTools></ExtraTools>
+                        <ContactCards></ContactCards>
                     </div>
                 </ParallaxLayer>
             </Parallax>
