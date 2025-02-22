@@ -1,0 +1,25 @@
+.game-dev-slider-bg_1{
+    background-image: url("../../Images/Game/game images.jpg");
+}
+.game-dev-slider-bg_2{
+    background-image: url("../../Images/Game/game images 2.jpg");
+}
+.game-dev-slider-bg_3{
+    background-image: url("../../Images/Game/game images 3.jpg");
+}
+.slider-content{
+    height: 60vh;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    background-position: center;
+}
+.slider-title{
+    font-size: 10vw;
+    font-family: 'Open Sans ExtraBold', cursive;
+    background-image: url("../../Images/Web/pattern3.jpg");
+    background-size: 30%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
